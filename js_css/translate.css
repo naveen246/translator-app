@@ -1,0 +1,43 @@
+#from{
+	display: inline-block;
+	margin-left: 150px;
+	margin-top: 50px;
+}
+.showLanguage{
+	display: inline-block;
+	border-style:ridge;
+	border-width:2px;
+	border-color:#F8F8F8;
+	width:150px;
+	
+}
+#to{
+	display: inline-block;
+	margin-left: 50px;
+}
+#translateButton{
+	border-style:ridge;
+	background-color:#F8F8F8;
+	border-width:2px;
+	border-color:#F8F8F8;
+	width:150px;
+	height:40px;
+	margin-left:100px;
+	margin-bottom:20px;
+}
+#hline{
+	color: #F8F8F8;
+	background-color: #F8F8F8;
+	height: 1px;
+}
+.helpText{
+	margin-left:50px;
+}
+.textArea{
+	border-style:ridge;
+	border-width:2px;
+	border-color:#F8F8F8;
+	width:600px;
+	height:200px;
+	margin:20px;
+}

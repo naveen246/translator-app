@@ -1,0 +1,16 @@
+application: translator-app
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+
+- url: /js
+  static_dir: js_css
+  
+- url: /css
+  static_dir: js_css
+
+- url: /.*
+  script: app.py
+  

@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="http://translator-app.appspot.com/css/translate.css" />
+		<script src="http://translator-app.appspot.com/js/translate.js"></script>
+	</head>
+
+	<body>
+		<div id='from'>
+			<label id='fromLabel'>FROM: </label>
+			<input class='showLanguage' id='fromLang' type='text'/>
+		</div>
+		
+		<div id='to'>
+			<label id='toLabel'>TO: </label>
+			<select class='showLanguage' id='toLanguageSelect' onchange='translate()'></select>
+		</div>
+		
+		<input id='translateButton' type='button' value='TRANSLATE' onclick='translate()'/>
+		
+		<hr id='hline'/>
+		
+		<label class='helpText' id='languageAvailableText'>  </label>
+		<br/>
+		<textarea class="textArea" id="srcTextArea" cols="40" rows="5" onkeyup='detect()' onchange='detect()' onmouseover='detect()'></textarea>
+		<textarea class="textArea" id="destTextArea" cols="40" rows="5"></textarea>
+		<br/>
+		<label class='helpText' id='afterText'>Type the string to be tanslated in the above area and press enter key. The language is autodetected</label>
+	</body>
+</html>
+
